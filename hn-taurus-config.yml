@@ -1,7 +1,7 @@
 ---
 execution:
   scenario:
-    script: mbp-help.jmx
+    script: MBP-HELP.jmx
   concurrency: 5
   ramp-up: 5s
   hold-for: 10m
