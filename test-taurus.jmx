@@ -1,0 +1,15 @@
+---
+execution:
+  scenario:
+    script: ./apache-jmeter/plan/hn-test-plan-taurus.jmx
+  concurrency: 3
+  ramp-up: 5s
+  iterations: 3
+modules:
+	
+  console:
+    disable: true
+  consolidator:
+    generalize-labels: false
+reporting:
+  - module: console
