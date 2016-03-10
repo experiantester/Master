@@ -2,7 +2,7 @@
 execution:
   scenario:
     script: testfile.jmx
-  concurrency: 20
+  concurrency: 5
   ramp-up: 5s
   hold-for: 10m
 modules:
@@ -18,7 +18,7 @@ modules:
     generalize-labels: false
 reporting:
   - module: blazemeter
-    test: HydraNorth Load Testing
+    test: demo.yml
   - module: console
   - module: junit-xml
     filename: ./junit.xml
