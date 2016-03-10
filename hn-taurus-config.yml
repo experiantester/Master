@@ -18,7 +18,7 @@ modules:
     generalize-labels: false
 reporting:
   - module: blazemeter
-    test: demo.yml
+    test: BEN AND DAVE TEST LOL
   - module: console
   - module: junit-xml
     filename: ./junit.xml
