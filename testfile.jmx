@@ -19,7 +19,7 @@
         <boolProp name="ProxyControlGui.regex_match">false</boolProp>
         <stringProp name="ProxyControlGui.content_type_include"></stringProp>
         <stringProp name="ProxyControlGui.content_type_exclude"></stringProp>
-        <stringProp name="ProxyControlGui.domains">era-test.library.ualberta.ca</stringProp>
+        <stringProp name="ProxyControlGui.domains">www.mybusinessprofile.com</stringProp>
       </ProxyControl>
       <hashTree/>
       <RecordingController guiclass="RecordController" testclass="RecordingController" testname="Recording Controller" enabled="true"/>
